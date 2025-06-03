@@ -1,0 +1,52 @@
+.HeroSection {
+    display: flex;
+    flex-direction: row;
+    background-color: #495E57;
+    color: white;
+    padding: 2% 10%;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .HeroText {
+    flex: 1;
+    padding-left: 10%;
+  }
+  
+  .HeroText h1 {
+    font-size: 3rem;
+    margin-bottom: 0px;
+    color: #F4CE14;
+  }
+
+  .HeroText h2{
+    margin-top: 0px;
+  }
+  
+  .HeroText p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .HeroButton {
+    padding: 0.75rem 1.5rem;
+    background-color: #F4CE14;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .HeroImage {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .HeroImage img {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+  }
+  
