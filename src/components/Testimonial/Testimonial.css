@@ -1,0 +1,31 @@
+
+.testimonial-section {
+    width: 60%;
+    margin-left: 18%;
+    margin-right: 18%;
+    background-color: lightgrey;
+    padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .top-section{
+      padding: 2%;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .review-box {
+    display: flex;
+    flex-direction: column;
+    /* width: 270px; */
+    height: 50%;
+    background-color: #edefee;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  }
+  
+  .user-image{
+    width:  25px;
+    height: 25px;
+  }
