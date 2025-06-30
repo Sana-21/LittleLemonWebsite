@@ -1,7 +1,7 @@
 .Footer {
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: #EDEFEE;
     color: grey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: flex-start;
@@ -9,6 +9,7 @@
     padding: 2rem 5%;
     width: 100%;
     box-sizing: border-box;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .Footer ul {

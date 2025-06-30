@@ -21,7 +21,7 @@ function Testimonial() {
   ];
 
   return (
-    <>
+    <div className="testimonial-main-div">
       <div className="testimonial-section">
         <div className="top-section">
           <h2>Reviews</h2>
@@ -32,24 +32,23 @@ function Testimonial() {
             {reviews.map((review) => (
               <div className="review-box" key={review.id}>
                 <div className="star-rating">
-                  {" "}
                   {Array(review.rating)
                     .fill()
                     .map((_, index) => (
                       <span key={index}>⭐</span>
                     ))}
                 </div>
-                <div>
+                <div className="user-name">
                   <img className="user-image" src={user} />
                   {review.username}
                 </div>
-                <p>{review.comment}</p>
+                <p>" {review.comment} "</p>
               </div>
             ))}
           </Slider>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,4 +1,7 @@
-
+.testimonial-main-div{
+  width: 100%;
+  background-color: lightgrey;
+  }
 .testimonial-section {
     width: 60%;
     margin-left: 18%;
@@ -9,7 +12,6 @@
   }
   
   .top-section{
-      padding: 2%;
       display: flex;
       justify-content: space-between;
   }
@@ -17,8 +19,6 @@
   .review-box {
     display: flex;
     flex-direction: column;
-    /* width: 270px; */
-    height: 50%;
     background-color: #edefee;
     border-radius: 10px;
     padding: 8px;
@@ -28,4 +28,12 @@
   .user-image{
     width:  25px;
     height: 25px;
+    padding-right: 5px;
+  }
+
+  .user-name{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    align-items: center;
   }

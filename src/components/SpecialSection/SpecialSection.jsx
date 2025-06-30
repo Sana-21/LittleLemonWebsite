@@ -10,7 +10,7 @@ function SpecialSection() {
   ];
 
   return (
-    <>
+    <div className='special-section-div'>
       <div className="specials-section">
         <div className='top-section'>
         <h2>Today's Specials</h2>
@@ -24,7 +24,7 @@ function SpecialSection() {
                 src={img.src}
                 alt={img.alt}
                 />
-                <div className='img-tile'>
+                <div className='img-title'>
                 <h3>{img.name}</h3>
                 <span>{img.price}</span>
                 </div>
@@ -33,7 +33,7 @@ function SpecialSection() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

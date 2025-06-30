@@ -6,7 +6,7 @@ function HeroSection(){
             <div className="HeroText">
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
-                <p>Enjoy our fresh Mediterranean flavors straight from the kitchen.Fresh Ingredients. Bold Flavors. Timeless Recipes.Join us at Little Lemon for a culinary journey that blends tradition with creativity. Whether it’s a quick bite or a full-course dinner, every dish is made with love</p>
+                <p>Enjoy our fresh Mediterranean flavors straight from the kitchen.Fresh Ingredients. Bold Flavors. Timeless Recipes. Join us at Little Lemon for a culinary journey that blends tradition with creativity. Whether it’s a quick bite or a full-course dinner, every dish is made with love</p>
                 <button className="HeroButton">Reserve a Table</button>
             </div>
             <div className="HeroImage">
