@@ -1,7 +1,7 @@
 import './BookingForm.css';
-function BookingForm() {
+function BookingForm({onClose}) {
     return (
-      <div className='form-container'>
+    <div className='form-container'>
         <form style={{ display: "grid", maxWidth: "200px", gap: "20px" }}>
           <label htmlFor="res-date">Choose date</label>
           <input type="date" id="res-date" />
@@ -31,8 +31,8 @@ function BookingForm() {
             <option>Anniversary</option>
           </select>
   
-          <input type="submit" value="Make Your Reservation" />
-          <input type="cancel" value="Cancel" />
+          <button className="submit-btn" type="submit">Confirm</button>
+          <button className="cancel-btn" type="button" onClick={onClose}>Cancel</button> 
         </form>
       </div>
     );
