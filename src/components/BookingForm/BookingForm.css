@@ -13,18 +13,18 @@
    
   }
 
-  form {
-    padding: 50px 100px;
-    width: 700px; 
+  .booking-form {
+    padding: 50px 20px;
+    width: 600px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 10px;
     background-color: #edefee;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-evenly; */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
   } 
   
   .form-container {
@@ -52,7 +52,8 @@
 
   label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    padding: 5px 5px;
   }
 
   input{
@@ -79,4 +80,12 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+  }
+
+  .form-btns{
+    display: flex;
+  }
+
+  .form-btns button{
+    margin: 20px 10px;
   }

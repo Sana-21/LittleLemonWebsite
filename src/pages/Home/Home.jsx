@@ -6,16 +6,14 @@ import Testimonial from '../../components/Testimonial/Testimonial';
 import Newsletter from '../../components/Newsletter/Newsletter';
 import BookingForm from '../../components/BookingForm/BookingForm';
 import { useState } from "react";
-function Home(){
+function Home({addReservation}){
     const [showForm, setShowForm] = useState(false);
     return <>
-    <Nav/>
     <HeroSection onReserveClick={() => setShowForm(true)} />
     <SpecialSection/>
-    {showForm && <BookingForm  onClose={() => setShowForm(false)} />}
+    {showForm && <BookingForm  onClose={() => setShowForm(false)} onAddReservation={addReservation} />}
     <Testimonial/>
     <Newsletter/>
-    <Footer/>
     </>
 }
 
