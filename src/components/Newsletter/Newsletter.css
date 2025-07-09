@@ -49,3 +49,21 @@
 .newsletter-form button:hover {
   background-color: #b71c1c;
 }
+
+@media (max-width: 600px) {
+  .newsletter-section {
+    padding: 40px 10px;
+  }
+  .newsletter-form {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .newsletter-form input[type="email"] {
+    width: 100%;
+    font-size: 14px;
+  }
+  .newsletter-form button {
+    width: 100%;
+    font-size: 14px;
+  }
+}

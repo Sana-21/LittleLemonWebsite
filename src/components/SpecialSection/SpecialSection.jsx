@@ -2,6 +2,7 @@ import Salad from '../../assets/salad.svg';
 import Bruschetta from '../../assets/bruschetta.svg';
 import Lemon from '../../assets/lemon.svg';
 import './SpecialSection.css';
+import { Link } from 'react-router-dom';
 function SpecialSection() {
   let specials = [
     { id: 1, name: "Greek Salad", src: Salad, alt: "salad", price: "$20", description :"The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons."  },
@@ -14,7 +15,7 @@ function SpecialSection() {
       <div className="specials-section">
         <div className='top-section'>
         <h2>Today's Specials</h2>
-        <button className='menu-btn'>Online Menu</button>
+        <Link to="/menu" className='menu-btn'>Online Menu</Link>
         </div>
         <div className="special-images">
           {specials.map((img) => (

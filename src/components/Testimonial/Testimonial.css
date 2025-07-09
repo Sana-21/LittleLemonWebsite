@@ -37,3 +37,16 @@
     padding-top: 10px;
     align-items: center;
   }
+
+@media (max-width: 900px) {
+  .testimonial-section {
+    width: 100%;
+    margin: 0;
+    padding: 1rem 0.5rem;
+  }
+  .top-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

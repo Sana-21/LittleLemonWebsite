@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Nav from './components/Nav/Nav';
 import HomePage from './pages/Home/Home';
 import Reservations from './pages/Reservations/Reservations';
+import Menu from './pages/Menu/Menu';
 
 function App() {
   const [reservations, setReservations] = useState([]);
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<HomePage addReservation={addReservation} />} />
+        <Route path="/menu" element={<Menu />} />
         <Route path="/reservations" element={<Reservations reservations={reservations} />} />
       </Routes>
       <Footer />

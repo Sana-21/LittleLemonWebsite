@@ -89,3 +89,19 @@
   .form-btns button{
     margin: 20px 10px;
   }
+
+@media (max-width: 600px) {
+  .booking-form {
+    width: 95vw;
+    padding: 20px 5px;
+    font-size: 14px;
+  }
+  .form-btns {
+    flex-direction: column;
+    gap: 10px;
+  }
+  input, select {
+    width: 100%;
+    font-size: 14px;
+  }
+}

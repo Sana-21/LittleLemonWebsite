@@ -22,7 +22,7 @@ function Nav() {
           <Link to="/reservations">Reservations</Link>
         </li>
         <li>
-          <Link to="/order">Order Online</Link>
+          <Link to="/menu">Order Online</Link>
         </li>
       </ul>
       <div className='login-btn'><Link to="/login"><img className='login-img' src={Login} alt="Login" /><p>Login</p></Link></div>
